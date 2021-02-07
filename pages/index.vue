@@ -4,7 +4,7 @@
       <Hero />
       <LargeCardDisplay
         v-for="cardInfo in largeCardInfo"
-        :key="cardInfo.id"
+        :key="`event_${cardInfo.id}`"
         :cardsSection="cardInfo"
       />
 

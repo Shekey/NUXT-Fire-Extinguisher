@@ -1,6 +1,6 @@
 <template>
     <div class="item-container">
-        <img :src="require(`@/assets/images/${item.image}`)" alt="" v-lazy-load>
+        <img :src="require(`@/assets/images/${item.image}`)" alt="" width="262" height="176" v-lazy-load>
         <div class="text-container">
             <h4> {{item.title}} </h4>
             <p> {{item.description}} </p>

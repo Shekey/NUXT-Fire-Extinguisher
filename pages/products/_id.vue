@@ -2,7 +2,8 @@
 <div>
    <div v-if="product" class="container py-5">
         <div class="hero-container">
-            <img :src="require(`@/assets/images/${product.image}`)" alt="" class="image">
+            <img :src="require(`@/assets/images/${product.image}`)" alt=""
+                width="655" height="400" class="image">
             <div class="info-box">
                 <h1>{{ product.title }}</h1>
                 <p class="snippet">{{ product.snippet }}</p>

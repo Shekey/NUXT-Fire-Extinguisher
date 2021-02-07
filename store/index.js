@@ -190,6 +190,7 @@ export const getters = {
 export const mutations = {
     addItem(state,id) {
         let item = state.products.find(product => product.id == id);
-        state.myRentals.push(item);
+        let exists = state.myRentals.find(product => product.id == id);
+        if(exists == null) state.myRentals.push(item);
     }
 }

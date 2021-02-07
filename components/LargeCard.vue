@@ -3,6 +3,7 @@
      <img
       class="image"
       :src="require(`@/assets/images/${card.image || 'fe1.jpg'}`)"
+      width="340" height="260"
       alt="" v-lazy-load
     />
     <h3 class="header">{{ card.title }}</h3>
