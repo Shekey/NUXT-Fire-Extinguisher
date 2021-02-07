@@ -2,7 +2,7 @@ export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
   target: 'static',
   head: {
-    title: 'Client',
+    title: 'Fire Extinguisher',
     htmlAttrs: {
       lang: 'en'
     },
